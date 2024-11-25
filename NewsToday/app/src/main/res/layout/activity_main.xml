@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotationY="0"
+    android:background="@drawable/inicitele"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/botaoChina"
+        android:layout_width="192dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="286dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoLondres"
+        app:srcCompat="@drawable/botaochaina"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/botaoBrasil"
+        android:layout_width="192dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/botaoEUA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/botaobrasil"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:srcCompat="@drawable/botaobrasil" />
+
+    <ImageButton
+        android:id="@+id/botaoEUA"
+        android:layout_width="192dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/botaoLondres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoBrasil"
+        app:srcCompat="@drawable/botaoeua"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/botaoLondres"
+        android:layout_width="192dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="14dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/botaoChina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoEUA"
+        app:srcCompat="@drawable/botaouk"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
